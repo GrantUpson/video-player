@@ -1,0 +1,38 @@
+
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C and C++ source/header files
+[*.{c,h,cpp,hpp}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+# Shell scripts and Makefiles
+[*.{sh,makefile,Makefile}]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+trim_trailing_whitespace = false
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# JSON, YAML, and other config files
+[*.{json,yml,yaml,xml}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+# CMake files
+[*.{cmake,CMakeLists.txt}]
+indent_style = space
+indent_size = 4
+tab_width = 4
